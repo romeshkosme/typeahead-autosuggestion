@@ -1,6 +1,5 @@
 import './style.css'
 import searchIcon from '/search.svg'
-import { setupCounter } from './counter.ts'
 import { handleSearch } from './search.ts';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
